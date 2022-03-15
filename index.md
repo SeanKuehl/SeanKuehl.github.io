@@ -3,274 +3,86 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Sean Kuehl's Website</title>
+    <title>Sean Kuehl</title>
 
     <!-- Enter a brief description of your page -->
     <meta name="description" content="Welcome to my page!">
 
 <style>
-.button {
-  background-color: #4CAF50;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+
+div {
+  margin-bottom: 200px;
 }
 
-.button:hover {
-  background-color: #3e8e41;
+p {
+  font-size: 25px;
+  font-family: "Trebuchet MS", sans-serif;
+
 }
 
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+li {
+  font-size: 25px;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
-.button1 {background-color: #4CAF50;} /* Green */
-.button2 {background-color: #008CBA;} /* Blue */
-
-
-img {
-  
-  
-  margin-top: 100px;
- 
-  
-}
-
-h1 {text-align: center;}
-p {text-align: center;}
-div {text-align: center;}
-audio {text-align: center;}
-
-html, body {
-  width: 100%;
-  height:100%;
-}
-
-body {
-    background: linear-gradient(-45deg, #ee7752, #5b965a, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-@keyframes example {
-  from {background-color: red;}
-  to {background-color: yellow;}
-}
-
-<!--
-@keyframes example {
-  0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
-}
--->
- /* Dropdown Button */
-.dropbtn {
-  background-color: #04AA6D;
-  color: white;
-  padding: 16px;
-  font-size: 16px;
-  border: none;
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f1f1f1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-/* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #ddd;}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {background-color: #3e8e41;} 
-
-
-/* Place the navbar at the bottom of the page, and make it stick */
-.navbar {
-  background-color: #333;
-  overflow: hidden;
-  position: fixed;
-  width: 100%;
-  vertical-align: top;
-  margin-top: 0px;
-}
-
-/* Style the links inside the navigation bar */
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.navbar a.active {
-  background-color: #04AA6D;
-  color: white;
-}
-
-
+<!-- I'll seperate things with witespace by using divs, couldn't find a better option-->
+<!-- I need to flesh out, stylize elements and complete the page but I have the basics down-->
 </style>
 
     
 </head>
 <body>
+
+
+
+
+<!-- this is the title and paragraph that will introduce me and what the website has to offer-->
 <div align="center">
- <div class="navbar">
-  <a href="#home" class="active">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
-</div> 
- <button class="button button1">Click Me!</button> 
- <button class="button button1">Click Me!</button> 
- <button class="button button1">Click Me!</button> 
- <button class="button button1">Click Me!</button> 
- 
- <div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
-    <a href="https://github.com/SeanKuehl">Link 1</a>
-    <a href="https://github.com/SeanKuehl">Link 2</a>
-    <a href="https://github.com/SeanKuehl">Link 3</a>
-  </div>
-</div> 
- </div>
-
-
-<h1> Welcome To Sean Kuehl's Website!</h1>
-<p id="time"></p>
-
-<p> This website has ambiance music, press play to enable it</p>
-
-
-
-<div align="center">
-<audio controls autoplay loop>
-<source src="doodle.mp3">
-Your browser does not support the audio tag.
-</audio>
+<h1> Sean Kuehl </h1>
 </div>
 
-<div align="center">
-<img src="me.jpg"></img>
+<div align = "center">
+<p> Here is an example of a game I made. It's a puzzle game where you have to find bugs in code. Try it out!</p>
+
+<!-- I got this embed code from itch.io itself under the distribute->embed. This worked like a charm!-->
+<iframe src="https://itch.io/embed-upload/5284568?color=333333" allowfullscreen="" width="640" height="380" frameborder="0"><a href="https://seankuehl.itch.io/spot-the-bug">Play Spot The Bug! on itch.io</a></iframe>
+
 </div>
 
-<!-- music attribution: https://opengameart.org/content/doodle-menu-like-song -->
 
-<p>Hello, my name is Sean Kuehl, a software and tech enthusiast currently working towards my bachelors in computer science at Conestoga College.<br>
-   For me, it all began when at a young age I thought about what I wanted to do for a living. The saying "if you do what you love, <br>
-   you'll never work a day in your life" came to mind. I thought to myself "well, I love video games but a video game tester isn't a full-time job,<br>
-   so instead I'll make video games!".
-</p>
+<div align = "center">
+<!-- maybe put a header hear to mark "about me"-->
+<img src="StandIn.png" alt="Picture of me">
+<p> From a young age I was hooked on video games, and it's what got me interested in programming and technology.</p>
+<p> Now I'm pursuing a Bachelors degree in Computer Science at Conestoga College, learning a lot and doing my best.</p>
+<p> I still find time to work on my own projects and learn new technologies to keep my mind and my skills sharp.</p>
+<p> I'm constantly exploring and looking to create new opportunities, which is part of the reason I'm hosting my own website.</p>
+<p> Strategy games, digital art and writing are some of my other hobbies that I explore outside of personal projects.</p>
 
-<img src="Drago.png" id = "test"></img>
-
-<script>
-<!-- javascript is asynchronus, so if there's something after the wait it will do it while waiting, doesn't wait for last command-->
-<!-- this is a basic, rudamentary "animation", once I get real images I can make something neat-->
-var listOfImages = ["Dan.png", "Background.png", "Drago.png"];
-var index = 0;
-
-function testFunc(){
-	
-	document.getElementById("test").src = listOfImages[index];
-	index += 1;
-	
-	if (index > 2){
-		index = 0;
-	}
-	
-	setTimeout(testFunc, 2000);
-	
-}
-
-testFunc();
+</div>
 
 
+<div align = "center">
+<h1> Contact/Portfolio </h1>
+<!-- itchio, github, linkedin, official gmail, phone, say preferred method is email-->
+
+<h2> Portfolio </h2>
+<ul>
+<li> Check out my <a href="https://seankuehl.itch.io/">Itch.io</a> </li>
+<li> Check out my <a href="https://github.com/SeanKuehl">Github</a> </li>
+</ul>
+
+<h2> Contact </h2>
+<ul>
+<li> I prefer to be reached by email at <a href="seanliamkuehl@gmail.com">seanliamkuehl@gmail.com</a> </li>
+<li> I can also be reached by phone at <a href="tel:+>519-210-0874">519-210-0874</a> although someone else or no one may answer</li>
+<li> You can find my LinkedIn profile <a href="https://www.linkedin.com/in/sean-kuehl-720611219/"> Here</a> </li>
+</ul>
 
 
-</script>
+</div>
 
 
-<script>
-class HelloMessage extends React.Component {
-  render() {
-    return React.createElement(
-      "div",
-      null,
-      "Hello ",
-      this.props.name
-    );
-  }
-}
-
-ReactDOM.render(React.createElement(HelloMessage, { name: "Taylor" }), document.getElementById('hello-example'));
-
-
-</script>
-
-<script>
-<!-- this code will run on 'startup', if I want something to happen on a button press -->
-<!--I would have to add 'onclick="java script or just func call"' to do it -->
-
-document.getElementById("time").innerHTML = "Accessed on: "+Date();
-</script>
-
- <!--<a href="https://github.com/SeanKuehl" class="button button">My Github</a>-->
-<!-- also have a button that goes to my LinkedIn-->
-<!-- give the image a top margin of something, easiest supported way to do spacing-->
 
 
 </body>

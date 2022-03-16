@@ -53,11 +53,12 @@ li {
 <div align = "center">
 <!-- maybe put a header hear to mark "about me"-->
 <img src="MeForWebsite.jpg" alt="Picture of me">
+
 <p> From a young age I was hooked on video games, and it's what got me interested in programming and technology.
 Now I'm pursuing a Bachelors degree in Computer Science at Conestoga College, learning a lot and doing my best.
- I still find time to work on my own projects and learn new technologies to keep my mind and my skills sharp.
- I'm constantly exploring and looking to create new opportunities, which is part of the reason I'm hosting my own website.
- Strategy games, digital art and writing are some of my other hobbies that I explore outside of personal projects.</p>
+I still find time to work on my own projects and learn new technologies to keep my mind and my skills sharp.
+I'm constantly exploring and looking to create new opportunities, which is part of the reason I'm hosting my own website.
+Strategy games, digital art and writing are some of my other hobbies that I explore outside of personal projects.</p>
 
 </div>
 

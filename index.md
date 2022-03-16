@@ -23,6 +23,7 @@ p {
 li {
   font-size: 25px;
   font-family: "Trebuchet MS", sans-serif;
+  margin-bottom: 20px;
 }
 
 <!-- I'll seperate things with witespace by using divs, couldn't find a better option-->
@@ -76,7 +77,7 @@ Strategy games, digital art and writing are some of my other hobbies that I expl
 <h2> Contact </h2>
 <ul>
 <li> I prefer to be reached by email at <a href="seanliamkuehl@gmail.com">seanliamkuehl@gmail.com</a> </li>
-<li> I can also be reached by phone at <a href="tel:+>519-210-0874">519-210-0874</a> although someone else or no one may answer</li>
+<li> I can also be reached by phone at <a href="tel:+519-210-0874">519-210-0874</a> although someone else or no one may answer</li>
 <li> You can find my LinkedIn profile <a href="https://www.linkedin.com/in/sean-kuehl-720611219/"> Here</a> </li>
 </ul>
 

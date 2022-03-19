@@ -13,6 +13,11 @@ use in body:
 <div class="ex1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum 
 volutpat tellus diam, consequat gravida libero rhoncus ut.</div>
+
+
+also explore this:
+https://blog.hubspot.com/website/html-dropdown
+
 -->
 
 
@@ -28,12 +33,7 @@ volutpat tellus diam, consequat gravida libero rhoncus ut.</div>
 <style>
 
 
-div.blogButton {
-  
-  height: 40px;
-  width: 200px;
-  overflow-y: scroll;
-}
+
 
 
 div {
@@ -66,15 +66,14 @@ li {
 <!-- this is the title and paragraph that will introduce me and what the website has to offer-->
 <div align="center">
 <h1> Sean Kuehl </h1>
+
+<a href="HomePage.html">
+<button>Blogs</button>
+</a>
+
 </div>
 
-<div class="blogButton" align = "center">
-<a href="HomePage.html">sample</a>
-<a href="HomePage.html">sample</a>
-<a href="HomePage.html">sample</a>
-<a href="HomePage.html">sample</a>
-<a href="HomePage.html">sample</a>
-</div>
+
 
 <div align = "center">
 <p> Here is an example of a game I made. It's a puzzle game where you have to find bugs in code. Try it out!</p>

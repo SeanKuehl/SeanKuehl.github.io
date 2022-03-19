@@ -14,6 +14,12 @@
 <style>
 
 
+.blogButton {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+}
+
 .togetherParent {
   white-space: nowrap;
   overflow-x: auto;
@@ -61,7 +67,7 @@ li {
 
 
 <a href="HomePage.html">
-<button class = "togetherChild">Blogs</button>
+<button class = "togetherChild blogButton">Blogs</button>
 </a>
 
 

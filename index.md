@@ -34,8 +34,7 @@ https://blog.hubspot.com/website/html-dropdown
 
 
 section {
-  display:inline-block;	<!-- this should keep things on the same line -->
-
+  float: left;
 }
 
 
@@ -71,7 +70,9 @@ li {
 
 <section>
 <h1> Sean Kuehl </h1>
+</section>
 
+<section>
 <a href="HomePage.html">
 <button>Blogs</button>
 </a>

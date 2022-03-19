@@ -1,24 +1,5 @@
 
-<!--
-this is for a vertical scrolling thing, will need some modification for my uses
-style:
-div.ex1 {
-  background-color: lightblue;
-  height: 40px;
-  width: 200px;
-  overflow-y: scroll;
-}
 
-use in body:
-<div class="ex1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum 
-volutpat tellus diam, consequat gravida libero rhoncus ut.</div>
-
-
-also explore this:
-https://blog.hubspot.com/website/html-dropdown
-
--->
 
 
 <html lang="en"> <!-- Set this to the main language of your site -->
@@ -33,9 +14,7 @@ https://blog.hubspot.com/website/html-dropdown
 <style>
 
 
-section {
-  float: left;
-}
+
 
 
 div {
@@ -68,15 +47,15 @@ li {
 <!-- this is the title and paragraph that will introduce me and what the website has to offer-->
 <div align="center">
 
-<section>
-<h1> Sean Kuehl </h1>
-</section>
 
-<section>
+<h1> Sean Kuehl </h1>
+
+
+
 <a href="HomePage.html">
 <button>Blogs</button>
 </a>
-</section>
+
 
 </div>
 

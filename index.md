@@ -14,7 +14,15 @@
 <style>
 
 
+.togetherParent {
+  white-space: nowrap;
+  overflow-x: auto;
+}
 
+.togetherChild {
+  display: inline-block;
+  margin-left: 20px; 
+}
 
 
 div {
@@ -45,15 +53,15 @@ li {
 
 
 <!-- this is the title and paragraph that will introduce me and what the website has to offer-->
-<div align="center">
+<div align="center" class="togetherParent">
 
 
-<h1> Sean Kuehl </h1>
+<h1 class="togetherChild"> Sean Kuehl </h1>
 
 
 
 <a href="HomePage.html">
-<button>Blogs</button>
+<button class = "togetherChild">Blogs</button>
 </a>
 
 

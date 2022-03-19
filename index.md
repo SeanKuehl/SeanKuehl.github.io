@@ -14,7 +14,9 @@
 <style>
 
 
-
+section {
+  float: left;
+}
 
 
 div {
@@ -47,14 +49,15 @@ li {
 <!-- this is the title and paragraph that will introduce me and what the website has to offer-->
 <div align="center">
 
-
+<section>
 <h1> Sean Kuehl </h1>
+</section>
 
-
-
+<section>
 <a href="HomePage.html">
 <button>Blogs</button>
 </a>
+</section>
 
 
 </div>

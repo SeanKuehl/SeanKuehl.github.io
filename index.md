@@ -15,8 +15,9 @@
 
 
 .blogButton {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
+  font-size: 15px;
   background-color: white;
 }
 

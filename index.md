@@ -67,7 +67,7 @@ li {
 
 
 
-<a href="HomePage.html">
+<a href="BlogDirectory">
 <button class = "togetherChild blogButton">Blogs</button>
 </a>
 
